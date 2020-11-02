@@ -1,5 +1,6 @@
 # Geometry-Functions-Project
 Treehouse practice for functions in JavaScript
+
 Original specs:
 
 // 1. Attach this file geometry.js to the index.html file
