@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice JavaScript Math</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <script src="js/geometry.js"></script>
+</body>
+</html>
+
+
+function areaRectangle (width, height){
+  return width*height;
+}
+
+
+function volRectangle (width, height, length){
+  return width*height*length;
+}
+
+
+function areaCircle (radius){
+  return Math.PI * Math.pow(radius,2);
+}
+
+
+function volSphere (radius) {
+  return (4/3) * Math.PI * Math.pow(radius,3);
+}
+
+console.log (areaRectangle(5,22));
+console.log (volRectangle(4.5, 12.5, 17.4));
+console.log (areaCircle(7.2));
+console.log (volSphere(7.2));
